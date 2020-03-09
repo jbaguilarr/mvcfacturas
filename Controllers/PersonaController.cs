@@ -10,7 +10,7 @@ namespace WebVenta.Controllers
 {
     public class PersonaController : Controller
     {
-        string _url = "https://localhost:44383/api/";
+        string _url = Constantes.UrlApi; 
         //get persona
         [HttpGet]
         public ActionResult Index()
